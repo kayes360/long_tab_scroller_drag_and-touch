@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <style>
+    .btn_scroller{
+        overflow-x: scroll;
+    }
+    ::-webkit-scrollbar {
+    display: none;
+}
+.rounded-nav-pill{
+    border-radius: 5px;
+}
+.custom-nav-ul{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+  </style>
+  <body>
+     
+        <div class="container my-5">
+            <div class="btn_scroller d-flex">
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-primary">Primary</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-secondary">Secondary</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-success">Success</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-danger">Danger</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-warning">Warning</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-info">Information</button> 
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-dark">Dark</button>  
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-primary">Primary</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-secondary">Secondary</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-success">Success</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-danger">Danger</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-warning">Warning</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-info">Information</button> 
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-dark">Dark</button>  
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-primary">Primary</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-secondary">Secondary</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-success">Success</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-danger">Danger</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-warning">Warning</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-info">Information</button> 
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-dark">Dark</button>  
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-primary">Primary</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-secondary">Secondary</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-success">Success</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-danger">Danger</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-warning">Warning</button>
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-info">Information</button> 
+                <button type="button" class="btn-scroll btn rounded-pill m-2 btn-dark">Dark</button>  
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-9">
+                    <ul class="nav nav-tabs  nav-pills nav-fill py-3 custom-nav-ul" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill  active" id="one" data-bs-toggle="tab" data-bs-target="#one-pane" type="button" role="tab" aria-controls="one-pane" aria-selected="true">one</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="two-tab" data-bs-toggle="tab" data-bs-target="#two-tab-pane" type="button" role="tab" aria-controls="two-tab-pane" aria-selected="false">two</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="three-tab" data-bs-toggle="tab" data-bs-target="#three-tab-pane" type="button" role="tab" aria-controls="three-tab-pane" aria-selected="false">three</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="four-tab" data-bs-toggle="tab" data-bs-target="#four-tab-pane" type="button" role="tab" aria-controls="four-tab-pane" aria-selected="false">four</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="five-tab" data-bs-toggle="tab" data-bs-target="#five-tab-pane" type="button" role="tab" aria-controls="five-tab-pane" aria-selected="false">five</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="six-tab" data-bs-toggle="tab" data-bs-target="#six-tab-pane" type="button" role="tab" aria-controls="six-tab-pane" aria-selected="false">six</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="seven-tab" data-bs-toggle="tab" data-bs-target="#seven-tab-pane" type="button" role="tab" aria-controls="seven-tab-pane" aria-selected="false">seven</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="eight-tab" data-bs-toggle="tab" data-bs-target="#eight-tab-pane" type="button" role="tab" aria-controls="eight-tab-pane" aria-selected="false">eight</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="nine-tab" data-bs-toggle="tab" data-bs-target="#nine-tab-pane" type="button" role="tab" aria-controls="nine-tab-pane" aria-selected="false">nine</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="ten-tab" data-bs-toggle="tab" data-bs-target="#ten-tab-pane" type="button" role="tab" aria-controls="ten-tab-pane" aria-selected="false">ten</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="eleven-tab" data-bs-toggle="tab" data-bs-target="#eleven-tab-pane" type="button" role="tab" aria-controls="eleven-tab-pane" aria-selected="false">eleven</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="twelve-tab" data-bs-toggle="tab" data-bs-target="#twelve-tab-pane" type="button" role="tab" aria-controls="twelve-tab-pane" aria-selected="false">twelve</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="thirteen-tab" data-bs-toggle="tab" data-bs-target="#thirteen-tab-pane" type="button" role="tab" aria-controls="thirteen-tab-pane" aria-selected="false">thirteen</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="fourteen-tab" data-bs-toggle="tab" data-bs-target="#fourteen-tab-pane" type="button" role="tab" aria-controls="fourteen-tab-pane" aria-selected="false">fourteen</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="fifteen-tab" data-bs-toggle="tab" data-bs-target="#fifteen-tab-pane" type="button" role="tab" aria-controls="fifteen-tab-pane" aria-selected="false">fifteen</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="sixteen-tab" data-bs-toggle="tab" data-bs-target="#sixteen-tab-pane" type="button" role="tab" aria-controls="sixteen-tab-pane" aria-selected="false">sixteen</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="seventeen-tab" data-bs-toggle="tab" data-bs-target="#seventeen-tab-pane" type="button" role="tab" aria-controls="seventeen-tab-pane" aria-selected="false">seventeen</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="eighteen-tab" data-bs-toggle="tab" data-bs-target="#eighteen-tab-pane" type="button" role="tab" aria-controls="eighteen-tab-pane" aria-selected="false">eighteen</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="nineteen-tab" data-bs-toggle="tab" data-bs-target="#nineteen-tab-pane" type="button" role="tab" aria-controls="nineteen-tab-pane" aria-selected="false">nineteen</button>
+                        </li> 
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-pill " id="twenty-tab" data-bs-toggle="tab" data-bs-target="#twenty-tab-pane" type="button" role="tab" aria-controls="twenty-tab-pane" aria-selected="false">twenty</button>
+                        </li> 
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane py-5 fade show active" id="one-pane" role="tabpanel" aria-labelledby="one" tabindex="0">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                              </form>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="two-tab-pane" role="tabpanel" aria-labelledby="two-tab" tabindex="0">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                      Accordion Item #1
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                      Accordion Item #2
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                      Accordion Item #3
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="three-tab-pane" role="tabpanel" aria-labelledby="three-tab" tabindex="0">
+                            <div id="liveAlertPlaceholder"></div>
+                            <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="four-tab-pane" role="tabpanel" aria-labelledby="four-tab" tabindex="0">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="card-link">Card link</a>
+                                  <a href="#" class="card-link">Another link</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="five-tab-pane" role="tabpanel" aria-labelledby="five-tab" tabindex="0">
+                            <p>
+                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                  Link with href
+                                </a>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                  Button with data-bs-target
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="six-tab-pane" role="tabpanel" aria-labelledby="six-tab" tabindex="0">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Dropdown button
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="seven-tab-pane" role="tabpanel" aria-labelledby="seven-tab" tabindex="0">
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                  <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Subheading</div>
+                                    Content for list item
+                                  </div>
+                                  <span class="badge bg-primary rounded-pill">14</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                  <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Subheading</div>
+                                    Content for list item
+                                  </div>
+                                  <span class="badge bg-primary rounded-pill">14</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                  <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Subheading</div>
+                                    Content for list item
+                                  </div>
+                                  <span class="badge bg-primary rounded-pill">14</span>
+                                </li>
+                              </ol>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="eight-tab-pane" role="tabpanel" aria-labelledby="eight-tab" tabindex="0">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Launch demo modal
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                    ...
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="nine-tab-pane" role="tabpanel" aria-labelledby="nine-tab" tabindex="0">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                </ul>
+                              </nav>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="ten-tab-pane" role="tabpanel" aria-labelledby="ten-tab" tabindex="0">
+                            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+                                Popover on bottom
+                              </button>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="eleven-tab-pane" role="tabpanel" aria-labelledby="eleven-tab" tabindex="0">
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="twelve-tab-pane" role="tabpanel" aria-labelledby="twelve-tab" tabindex="0">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-border text-secondary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-border text-success" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-border text-danger" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-border text-warning" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-border text-info" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-border text-light" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                              <div class="spinner-border text-dark" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="thirteen-tab-pane" role="tabpanel" aria-labelledby="thirteen-tab" tabindex="0">
+                            <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+        
+                                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="toast-header">
+                                    <img src="..." class="rounded me-2" alt="...">
+                                    <strong class="me-auto">Bootstrap</strong>
+                                    <small>11 mins ago</small>
+                                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                                    </div>
+                                    <div class="toast-body">
+                                    Hello, world! This is a toast message.
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="fourteen-tab-pane" role="tabpanel" aria-labelledby="fourteen-tab" tabindex="0">
+                            <button type="button" class="btn btn-secondary"
+                            data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="This top tooltip is themed via CSS variables.">
+                                    Custom tooltip
+                                    </button>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="fifteen-tab-pane" role="tabpanel" aria-labelledby="fifteen-tab" tabindex="0">
+                            <div class="card" style="width: 18rem;">
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">An item</li>
+                                  <li class="list-group-item">A second item</li>
+                                  <li class="list-group-item">A third item</li>
+                                </ul>
+                              </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="sixteen-tab-pane" role="tabpanel" aria-labelledby="sixteen-tab" tabindex="0">
+                            <div class="card">
+                                <div class="card-header">
+                                  Featured
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Special title treatment</h5>
+                                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="seventeen-tab-pane" role="tabpanel" aria-labelledby="seventeen-tab" tabindex="0">
+                            <div class="card text-center">
+                                <div class="card-header">
+                                  Featured
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Special title treatment</h5>
+                                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                                <div class="card-footer text-muted">
+                                  2 days ago
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="eighteen-tab-pane" role="tabpanel" aria-labelledby="eighteen-tab" tabindex="0">
+                            <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="nineteen-tab-pane" role="tabpanel" aria-labelledby="nineteen-tab" tabindex="0">
+                            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-primary">
+                                  <h5 class="card-title">Primary card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane py-5 fade" id="twenty-tab-pane" role="tabpanel" aria-labelledby="twenty-tab" tabindex="0">
+                            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                                <button type="button" class="btn btn-danger">Left</button>
+                                <button type="button" class="btn btn-warning">Middle</button>
+                                <button type="button" class="btn btn-success">Right</button>
+                              </div>
+                        </div>
+                        
+                      </div>
+                </div>
+            </div>
+           
+
+
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script> 
+   const slider = document.querySelector('.custom-nav-ul');
+            let isDown = false;
+            let startX;
+            let scrollLeft;
+
+            slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            slider.classList.add('active');
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+            });
+            slider.addEventListener('mouseleave', () => {
+            isDown = false;
+            slider.classList.remove('active');
+            });
+            slider.addEventListener('mouseup', () => {
+            isDown = false;
+            slider.classList.remove('active');
+            });
+            slider.addEventListener('mousemove', (e) => {
+            if(!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 3; //scroll-fast
+            slider.scrollLeft = scrollLeft - walk;
+            console.log(walk);
+            });
+    </script>
+
+
+<script>
+
+const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+const alert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    alert('Nice, you triggered this alert message!', 'success')
+  })
+}
+</script>
+  </body>
+</html>
